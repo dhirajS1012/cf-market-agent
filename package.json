@@ -1,0 +1,19 @@
+{
+  "name": "cf-market-agent",
+  "version": "1.0.0",
+  "description": "AI-powered market intelligence chat agent built on Cloudflare Workers",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "cf-typegen": "wrangler types"
+  },
+  "dependencies": {
+    "hono": "^4.6.3"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250214.0",
+    "typescript": "^5.5.2",
+    "wrangler": "^3.99.0"
+  }
+}
